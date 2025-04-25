@@ -1,5 +1,5 @@
 
-#import "../YouTubeHeader/YTIGuideResponse.h"
+
 #import "../YouTubeHeader/YTIGuideResponseSupportedRenderers.h"
 #import "../YouTubeHeader/YTIPivotBarSupportedRenderers.h"
 #import "../YouTubeHeader/YTIPivotBarRenderer.h"
