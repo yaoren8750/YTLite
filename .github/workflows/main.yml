@@ -37,7 +37,7 @@ on:
       ipa_url:
         description: "URL to the decrypted IPA file"
         default: ""
-        required: true
+        required: false
         type: string
 
       tweak_version:
@@ -49,13 +49,13 @@ on:
       display_name:
         description: "App Name (Optional)"
         default: "YouTube"
-        required: true
+        required: false
         type: string
 
       bundle_id:
         description: "BundleID (Optional)"
         default: "com.google.ios.youtube"
-        required: true
+        required: false
         type: string
 
       info_note:
