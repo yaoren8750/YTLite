@@ -39,7 +39,16 @@ on:
         default: ""
         required: false
         type: string
-
+deploy_format:
+        description: "Deployment format"
+        default: rootfull
+        required: true
+        type: choice
+        options:
+          - rootfull
+          - sideloaded
+          - trollstore
+          - rootless
       tweak_version:
         description: "The version of the tweak to use. Enter the version manually from dayanch96/YTLite/releases or leave default"
         default: "5.2b1"
