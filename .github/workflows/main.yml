@@ -37,18 +37,9 @@ on:
       ipa_url:
         description: "URL to the decrypted IPA file"
         default: ""
-        required: false
-        type: string
-deploy_format:
-        description: "Deployment format"
-        default: rootfull
         required: true
-        type: choice
-        options:
-          - rootfull
-          - sideloaded
-          - trollstore
-          - rootless
+        type: string
+
       tweak_version:
         description: "The version of the tweak to use. Enter the version manually from dayanch96/YTLite/releases or leave default"
         default: "5.2b1"
@@ -58,13 +49,13 @@ deploy_format:
       display_name:
         description: "App Name (Optional)"
         default: "YouTube"
-        required: false
+        required: true
         type: string
 
       bundle_id:
         description: "BundleID (Optional)"
         default: "com.google.ios.youtube"
-        required: false
+        required: true
         type: string
 
       info_note:
